@@ -1,0 +1,100 @@
+/* importing fonts */
+@font-face {
+    font-family: ROboto;
+    src: url(fonts/Roboto.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans.ttf);
+}
+body{
+    margin: 0px;
+}
+/* colors */
+body{
+    background-color: black;
+}
+h1{
+    color: #F4F27E;
+}
+.even{
+    color: #FFF5C2;
+}
+.odd{
+    color: #6DB9EF;
+}
+/* font family */
+h1{
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+.even{
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+}
+.odd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bdr{
+    color: aqua;
+    border: 3px solid azure;
+    border-radius: 5px;
+}
+#pbdr{
+    color: wheat;
+    border-bottom: 3px solid cyan;
+    border-top: 3px solid rebeccapurple;
+    border-right: 3px solid red;
+    border-left: 3px solid violet;
+    border-radius: 5px;
+}
+/* text and box shadow */
+#me{
+    text-shadow: 3px 3px 5px red, -3px -3px 5px cyan; /* comma for multiple shadows */
+    color: white;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    box-shadow: 3px 3px 5px greenyellow;
+}
+/* margins */ /*When margin: auto; is used the element will stay at the middle of the browser, but when margin-'either side': auto; is used then the element will take as much area as possible (simply whe whole area of the 'side'.)*/
+#mrgn{
+    color: bisque;
+    font-family: Roboto;
+}
+#mgrn{
+    color: white;
+}
+.bo{
+    border: 5px solid red;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 32px;
+    margin-left: 25px;
+}
+#box1{
+    background-color: #FFF5C2;
+    color: black;
+}
+#box2{
+    background-color: cyan ;
+    color: black;
+}
+/* float property */
+#img1{
+    float: left;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+.pkmn{
+    color: #6DB9EF;
+    margin-left: 20px;
+    font-family: Roboto;
+}
